@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cooklet">
         <activity
+            android:name=".select_recipe_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2" />
+        <activity
             android:name=".Type"
             android:exported="false" />
         <activity
