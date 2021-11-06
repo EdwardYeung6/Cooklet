@@ -38,8 +38,10 @@
                     android:layout_height="200dp"
                     android:layout_row="0"
                     android:layout_column="0"
+                    android:onClick="to_meun_page"
                     android:src="@drawable/type_beef"
-                    app:layout_gravity="left" />
+                    app:layout_gravity="left"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <ImageView
                     android:id="@+id/ImageView2"
@@ -114,7 +116,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"

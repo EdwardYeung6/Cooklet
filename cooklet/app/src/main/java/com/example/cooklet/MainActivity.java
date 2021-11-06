@@ -1,6 +1,8 @@
 package com.example.cooklet;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.GridView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -29,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
         //CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), logos);
 
 
+    }
+
+    public void to_meun_page(View view) {
+        Intent intent = new Intent(MainActivity.this, MainActivity_Beef.class);
+        startActivity(intent);
     }
 
 
