@@ -15,7 +15,7 @@ import com.example.cooklet.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+   //private ActivityMainBinding binding;
     GridView simpleGrid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
