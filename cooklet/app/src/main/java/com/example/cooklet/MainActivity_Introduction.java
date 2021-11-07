@@ -2,6 +2,7 @@ package com.example.cooklet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -33,5 +34,11 @@ public class MainActivity_Introduction extends AppCompatActivity {
         } else {
             view.setBackground(d);
         }
+    }
+
+    public void to_prepare(View view){
+        Intent intent = new Intent(MainActivity_Introduction.this, MainActivity_Prepare.class);
+        intent.putExtra("key", value); // put image data in Intent
+        startActivity(intent);
     }
 }
