@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity_Beef">
+    tools:context=".MainActivity_Meun">
 
     <RelativeLayout
         android:layout_width="0dp"
@@ -56,10 +56,12 @@
                     android:layout_width="211dp"
                     android:layout_height="match_parent"
                     android:foregroundGravity="center_vertical"
+                    android:onClick="type_page"
                     android:src="@drawable/meun_orange_removebg"
                     app:layout_column="1"
                     app:layout_gravity="center_horizontal|center_vertical"
-                    app:layout_row="0" />
+                    app:layout_row="0"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
                 <ImageView
                     android:id="@+id/ImageView_button3"

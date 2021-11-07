@@ -5,15 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.GridView;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import com.example.cooklet.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,7 +26,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void to_meun_page(View view) {
-        Intent intent = new Intent(MainActivity.this, MainActivity_Beef.class);
+        Intent intent = new Intent(MainActivity.this, MainActivity_Meun.class);
+        startActivity(intent);
+    }
+
+    public void type_page(View view) {
+        Intent intent = new Intent(MainActivity.this, MainActivity.class);
         startActivity(intent);
     }
 
