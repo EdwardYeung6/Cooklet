@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity_Meun extends AppCompatActivity {
-    int[] images_beef = {R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef};
+   /* int[] images_beef = {R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef, R.drawable.type_beef};
 
     int[] images_fish = {R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish, R.drawable.type_fish};
 
@@ -25,7 +25,7 @@ public class MainActivity_Meun extends AppCompatActivity {
 
     int[] image_vegetable = {R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable, R.drawable.type_vegetable};
 
-    int[][] image_list = {images_beef, images_fish, image_chicken, image_duck, image_lamp, image_pork, image_vegetable};
+    int[][] image_list = {images_beef, images_fish, image_chicken, image_duck, image_lamp, image_pork, image_vegetable};*/
 
     String[] version = {"Android Alpha", "Android Beta", "Android Cupcake", "Android Donut", "Android Eclair", "Android Froyo", "Android Gingerbread", "Android Honeycomb", "Android Ice Cream Sandwich", "Android JellyBean", "Android Kitkat", "Android Lollipop", "Android Marshmallow", "Android Nougat"};
 
@@ -37,6 +37,10 @@ public class MainActivity_Meun extends AppCompatActivity {
 
     int[] images_group;
 
+    Dataset d = new Dataset();
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +50,7 @@ public class MainActivity_Meun extends AppCompatActivity {
         if (extras != null) {
             int value = extras.getInt("key");
             //The key argument here must match that used in the other activity
-            images_group = image_list[value];
+            images_group = d.getImage_list()[value];
 
         }
 
