@@ -2,7 +2,9 @@ package com.example.cooklet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.GridView;
 import android.widget.ListView;
 
@@ -15,7 +17,7 @@ public class MainActivity_Prepare extends AppCompatActivity {
     ListView lView;
 
 
-
+    ReipeData r_data=new ReipeData();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,11 +28,18 @@ public class MainActivity_Prepare extends AppCompatActivity {
             value = extras.getIntArray("key");
 
         }
-        ReipeData r_data=new ReipeData();
+
         lView = (ListView) findViewById(R.id.prepare_data);
 
        // String temp = r_data.value.toString();
         preparation_adapter p=new preparation_adapter(getApplicationContext(),r_data.r1.getPrepare(), r_data.value,r_data.measurement);
         lView.setAdapter(p);
+    }
+
+    public void to_step(View view){
+        Intent intent = new Intent(MainActivity_Prepare.this, MainActivity_Type.class);
+        int temp= r_data.r1.getId();
+        intent.putExtra("key", temp);
+        startActivity(intent);
     }
 }
