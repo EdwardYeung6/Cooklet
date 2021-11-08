@@ -1,0 +1,64 @@
+com/example/cooklet/databinding/IntroScreen5Binding.java
+ com.example.cooklet.databinding.IntroScreen5Binding
+com/example/cooklet/Recipe.java
+ com.example.cooklet.Recipe
+com/example/cooklet/databinding/IntroScreen4Binding.java
+ com.example.cooklet.databinding.IntroScreen4Binding
+com/example/cooklet/databinding/IntroScreen2Binding.java
+ com.example.cooklet.databinding.IntroScreen2Binding
+com/example/cooklet/databinding/IntroScreen1Binding.java
+ com.example.cooklet.databinding.IntroScreen1Binding
+com/example/cooklet/databinding/ActivityMainMeunBinding.java
+ com.example.cooklet.databinding.ActivityMainMeunBinding
+com/example/cooklet/databinding/IntroScreen3Binding.java
+ com.example.cooklet.databinding.IntroScreen3Binding
+com/example/cooklet/MainActivity.java
+ com.example.cooklet.MainActivity
+com/example/cooklet/BuildConfig.java
+ com.example.cooklet.BuildConfig
+com/example/cooklet/ListAdapter.java
+ com.example.cooklet.ListAdapter
+ com.example.cooklet.ListAdapter$1
+ com.example.cooklet.ListAdapter$ViewHolder
+com/example/cooklet/MainActivity_Introduction.java
+ com.example.cooklet.MainActivity_Introduction
+com/example/cooklet/databinding/LayoutSingleListItemBinding.java
+ com.example.cooklet.databinding.LayoutSingleListItemBinding
+com/example/cooklet/StepsActivity.java
+ com.example.cooklet.StepsActivity
+ com.example.cooklet.StepsActivity$1
+ com.example.cooklet.StepsActivity$MyViewPagerAdapter
+com/example/cooklet/databinding/ActivityMainPrepareBinding.java
+ com.example.cooklet.databinding.ActivityMainPrepareBinding
+com/example/cooklet/databinding/LayoutSingleTypeItemBinding.java
+ com.example.cooklet.databinding.LayoutSingleTypeItemBinding
+com/example/cooklet/Type_icon_adapter.java
+ com.example.cooklet.Type_icon_adapter
+com/example/cooklet/preparation_adapter.java
+ com.example.cooklet.preparation_adapter
+ com.example.cooklet.preparation_adapter$1
+ com.example.cooklet.preparation_adapter$ViewHolder
+com/example/cooklet/databinding/ActivityStepsBinding.java
+ com.example.cooklet.databinding.ActivityStepsBinding
+com/example/cooklet/databinding/ActivityMainBinding.java
+ com.example.cooklet.databinding.ActivityMainBinding
+com/example/cooklet/ReipeData.java
+ com.example.cooklet.ReipeData
+com/example/cooklet/databinding/ActivityMainTypeBinding.java
+ com.example.cooklet.databinding.ActivityMainTypeBinding
+com/example/cooklet/databinding/ActivityMainIntroductionBinding.java
+ com.example.cooklet.databinding.ActivityMainIntroductionBinding
+com/example/cooklet/databinding/LayoutPrepareDataPresentBinding.java
+ com.example.cooklet.databinding.LayoutPrepareDataPresentBinding
+com/example/cooklet/Dataset.java
+ com.example.cooklet.Dataset
+com/example/cooklet/PreferenceManager.java
+ com.example.cooklet.PreferenceManager
+com/example/cooklet/MainActivity_Prepare.java
+ com.example.cooklet.MainActivity_Prepare
+com/example/cooklet/MainActivity_Type.java
+ com.example.cooklet.MainActivity_Type
+ com.example.cooklet.MainActivity_Type$1
+com/example/cooklet/MainActivity_Meun.java
+ com.example.cooklet.MainActivity_Meun
+ com.example.cooklet.MainActivity_Meun$1

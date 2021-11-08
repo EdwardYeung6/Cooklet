@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cooklet">
         <activity
+            android:name=".StepsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_Prepare"
             android:exported="false" />
         <activity

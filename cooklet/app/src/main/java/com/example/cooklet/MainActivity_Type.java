@@ -1,13 +1,22 @@
 package com.example.cooklet;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import android.content.Intent;
+import android.text.Html;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 
 public class MainActivity_Type extends AppCompatActivity {
@@ -36,11 +45,10 @@ public class MainActivity_Type extends AppCompatActivity {
         });
     }
 
-   /* public void to_meun_page(View view) {
+    public void to_meun_page(View view) {
         Intent intent = new Intent(MainActivity_Type.this, MainActivity_Meun.class);
         startActivity(intent);
     }
-*/
     public void type_page(View view) {
         Intent intent = new Intent(MainActivity_Type.this, MainActivity_Type.class);
         startActivity(intent);
