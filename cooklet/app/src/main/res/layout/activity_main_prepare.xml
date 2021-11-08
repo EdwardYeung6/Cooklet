@@ -4,6 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E46E6E"
     tools:context=".MainActivity_Prepare">
+
+    <RelativeLayout
+        android:layout_width="347dp"
+        android:layout_height="779dp"
+        android:background="@drawable/prepare_round_textview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="346dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center|center_horizontal"
+            android:text="Prepare"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/prepare_data"
+            android:layout_width="345dp"
+            android:layout_height="529dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="128dp" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
