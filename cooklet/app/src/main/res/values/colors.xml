@@ -7,4 +7,42 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--    ripple effect -->
+    <color name="ripple">#782c00</color>
+
+    <!--app colors-->
+    <color name="cooklet_theme">#FF5757</color>
+    <color name="cooklet_theme_transparent">#CCFF5757</color>
+    <color name="cooklet_yellow">#FFDE59</color>
+    <color name="cooklet_grey">#AAA5A5</color>
+
+    <!-- header colors -->
+    <color name="header">#ffffff</color>
+    <array name="dot_on_page_active">
+        <item>#B71C1C</item>
+        <item>#B71C1C</item>
+        <item>#B71C1C</item>
+        <item>#B71C1C</item>
+        <item>#B71C1C</item>
+    </array>
+
+    <array name="dot_on_page_not_active">
+        <item>#ff9065</item>
+        <item>#ff9065</item>
+        <item>#ff9065</item>
+        <item>#ff9065</item>
+        <item>#ff9065</item>
+    </array>
+
+    <!-- dots for introduction and preparation  -->
+    <array name="two_dot_on_page_active">
+        <item>#B71C1C</item>
+        <item>#B71C1C</item>
+    </array>
+
+    <array name="two_dot_on_page_not_active">
+        <item>#ff9065</item>
+        <item>#ff9065</item>
+    </array>
 </resources>

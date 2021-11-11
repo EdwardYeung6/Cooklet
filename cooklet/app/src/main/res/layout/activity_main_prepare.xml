@@ -58,6 +58,7 @@
         android:layout_height="38dp"
         android:background="@drawable/prepare_ready_button"
         android:gravity="center"
+        android:onClick="to_step"
         android:text="Start Cooking"
         android:textColor="#ffffff"
         android:textSize="24sp"

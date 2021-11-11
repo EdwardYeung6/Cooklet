@@ -1,7 +1,7 @@
 package com.example.cooklet;
 
-import androidx.appcompat.app.AppCompatActivity;
 
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -37,7 +37,7 @@ public class MainActivity_Prepare extends AppCompatActivity {
     }
 
     public void to_step(View view){
-        Intent intent = new Intent(MainActivity_Prepare.this, MainActivity_Type.class);
+        Intent intent = new Intent(MainActivity_Prepare.this, MainActivity2.class);
         int temp= r_data.r1.getId();
         intent.putExtra("key", temp);
         startActivity(intent);
