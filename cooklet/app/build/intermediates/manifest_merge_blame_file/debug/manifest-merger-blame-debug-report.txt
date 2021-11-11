@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cooklet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:5:5-71:19
+12        android:allowBackup="true"
+12-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\e89cc30d83e7763ffd18296e3e008066\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@drawable/coolkle_icon_removebg"
+16-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:7:9-55
+17        android:label="@string/app_name"
+17-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@drawable/coolkle_icon_round_removebg"
+18-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:9:9-66
+19        android:supportsRtl="true"
+19-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:10:9-35
+20        android:theme="@style/Theme.Cooklet" >
+20-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:11:9-45
+21        <activity
+21-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.example.cooklet.MainActivity_Prepare"
+22-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:13:13-49
+23            android:exported="false" />
+23-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:14:13-37
+24        <activity
+24-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="com.example.cooklet.MainActivity_Introduction"
+25-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:16:13-54
+26            android:exported="false" />
+26-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:18:9-26:20
+28            android:name="com.example.cooklet.MainActivity_Type"
+28-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:19:13-46
+29            android:exported="true" >
+29-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:20:13-36
+30            <intent-filter>
+30-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:22:17-69
+31-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:24:17-77
+33-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:28:9-30:40
+37            android:name="com.example.cooklet.MainActivity_Meun"
+37-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:29:13-46
+38            android:exported="false" />
+38-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:30:13-37
+39        <activity
+39-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:32:9-34:40
+40            android:name="com.example.cooklet.MainActivity"
+40-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:33:13-41
+41            android:exported="false" />
+41-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:34:13-37
+42        <activity
+42-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:36:9-38:39
+43            android:name="com.example.cooklet.FinishActivity"
+43-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:37:13-43
+44            android:exported="true" />
+44-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:38:13-36
+45        <activity
+45-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:40:9-42:39
+46            android:name="com.example.cooklet.IntroductionActivity"
+46-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:41:13-49
+47            android:exported="true" />
+47-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:42:13-36
+48        <activity
+48-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:44:9-46:39
+49            android:name="com.example.cooklet.PreparationActivity"
+49-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:45:13-48
+50            android:exported="true" />
+50-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:46:13-36
+51        <activity
+51-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:48:9-50:38
+52            android:name="com.example.cooklet.MainActivity2"
+52-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:49:13-42
+53            android:exported="true" />
+53-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:50:13-36
+54        <activity
+54-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:52:9-54:39
+55            android:name="com.example.cooklet.Instruction"
+55-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:53:13-40
+56            android:exported="true" />
+56-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:54:13-36
+57        <activity
+57-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:56:9-58:39
+58            android:name="com.example.cooklet.Step1Activity"
+58-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:57:13-42
+59            android:exported="true" />
+59-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:58:13-36
+60        <activity
+60-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:60:9-62:39
+61            android:name="com.example.cooklet.Step2Activity"
+61-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:61:13-42
+62            android:exported="true" />
+62-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:62:13-36
+63        <activity
+63-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:64:9-66:39
+64            android:name="com.example.cooklet.Step3Activity"
+64-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:65:13-42
+65            android:exported="true" />
+65-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:66:13-36
+66        <activity
+66-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:68:9-70:39
+67            android:name="com.example.cooklet.Step4Activity"
+67-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:69:13-42
+68            android:exported="true" />
+68-->E:\Cooklet1\cooklet\app\src\main\AndroidManifest.xml:70:13-36
+69    </application>
+70
+71</manifest>

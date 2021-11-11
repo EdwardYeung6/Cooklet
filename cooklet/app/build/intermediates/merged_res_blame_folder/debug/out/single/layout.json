@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_single_list_item.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\layout_single_list_item.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_step2.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_step2.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_finish.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_finish.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_instruction.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_instruction.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_type.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_type.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_introduction.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_introduction.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_step4.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_step4.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\adapter_view_layout.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\adapter_view_layout.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_prepare_data_present.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\layout_prepare_data_present.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_introduction.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_introduction.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_step1.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_step1.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_prepare.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_prepare.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_preparation.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_preparation.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_step3.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_step3.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_single_type_item.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\layout_single_type_item.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_meun.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_meun.xml"
+    }
+]
