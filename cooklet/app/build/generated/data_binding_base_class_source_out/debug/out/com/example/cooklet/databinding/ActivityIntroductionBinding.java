@@ -4,6 +4,7 @@ package com.example.cooklet.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -24,12 +25,16 @@ public final class ActivityIntroductionBinding implements ViewBinding {
   public final TextView foodName;
 
   @NonNull
+  public final ImageView introBackground;
+
+  @NonNull
   public final CardView prepartionCard;
 
   private ActivityIntroductionBinding(@NonNull RelativeLayout rootView, @NonNull TextView foodName,
-      @NonNull CardView prepartionCard) {
+      @NonNull ImageView introBackground, @NonNull CardView prepartionCard) {
     this.rootView = rootView;
     this.foodName = foodName;
+    this.introBackground = introBackground;
     this.prepartionCard = prepartionCard;
   }
 
@@ -66,13 +71,20 @@ public final class ActivityIntroductionBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.intro_background;
+      ImageView introBackground = ViewBindings.findChildViewById(rootView, id);
+      if (introBackground == null) {
+        break missingId;
+      }
+
       id = R.id.prepartion_card;
       CardView prepartionCard = ViewBindings.findChildViewById(rootView, id);
       if (prepartionCard == null) {
         break missingId;
       }
 
-      return new ActivityIntroductionBinding((RelativeLayout) rootView, foodName, prepartionCard);
+      return new ActivityIntroductionBinding((RelativeLayout) rootView, foodName, introBackground,
+          prepartionCard);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

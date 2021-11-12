@@ -20,22 +20,19 @@ public class PreparationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preparation);
 
-        int[] x = {0,0};
-        value= x;
-       Bundle extras = getIntent().getExtras();
+        /*int[] x = {1,1};
+        value= x;*/
+       /*Bundle extras = getIntent().getExtras();
         if (extras != null) {
             value = extras.getIntArray("key");
 
-        }else{
+        }*/
 
-            value= x;
-        }
-
-        lView = (ListView) findViewById(R.id.ingredientListView);
+       /* lView = (ListView) findViewById(R.id.ingredientListView);
         preparation_adapter p=new preparation_adapter(getApplicationContext(),r_data.r1.getPrepare(), r_data.value,r_data.measurement);
-        lView.setAdapter(p);
+        lView.setAdapter(p);*/
 
-      /*  ListView ingredientListView = (ListView) findViewById(R.id.ingredientListView);
+        ListView ingredientListView = (ListView) findViewById(R.id.ingredientListView);
 
         Ingredients meat = new Ingredients("Meat",500, "g","Weight");
         Ingredients oil = new Ingredients("Oil", 1.5, "ml","Volume");
@@ -47,7 +44,7 @@ public class PreparationActivity extends AppCompatActivity {
 
         IngredientListAdapter adapter = new IngredientListAdapter(this,R.layout.adapter_view_layout, ingredientList);
         ingredientListView.setAdapter(adapter);
-        System.out.println("Creating the adapter");*/
+        System.out.println("Creating the adapter");
     }
 
     public void openInstruction(View view) {

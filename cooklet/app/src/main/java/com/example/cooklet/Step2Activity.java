@@ -10,7 +10,7 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class Step2Activity extends AppCompatActivity {
-    public Button timer;
+
 
     public static CountDownTimer countDownTimer;
     public static long timeLeftInMilliseconds = 600000;
@@ -21,4 +21,6 @@ public class Step2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_step2);
     }
+
+
 }

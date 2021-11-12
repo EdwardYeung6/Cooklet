@@ -29,13 +29,16 @@ public class MainActivity_Instruction extends AppCompatActivity {
     Button Home,Back;
     ViewPager vp;
 
-    MyViewPagerAdapter2 myvpAdapter;
+    MyViewPagerAdapter myvpAdapter;
+
+
 
     private NotificationManagerCompat notificationManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_instruction);
+
 
 
         screens = new int[]{
@@ -48,7 +51,7 @@ public class MainActivity_Instruction extends AppCompatActivity {
         Layout_bars = (LinearLayout) findViewById(R.id.layoutBars);
         Back = (Button) findViewById(R.id.back);
         Home = (Button) findViewById(R.id.home);
-        myvpAdapter = new MainActivity_Instruction.MyViewPagerAdapter2();
+        myvpAdapter = new MainActivity_Instruction.MyViewPagerAdapter();
         vp.setAdapter(myvpAdapter);
         vp.addOnPageChangeListener(viewPagerPageChangeListener);
 
@@ -92,7 +95,7 @@ public class MainActivity_Instruction extends AppCompatActivity {
     }
 
     private void launchIntro() {
-        startActivity(new Intent(MainActivity_Instruction.this, MainActivity_Meun.class));
+
         finish();
     }
 
@@ -168,10 +171,10 @@ public class MainActivity_Instruction extends AppCompatActivity {
         }
     };
 
-    public class MyViewPagerAdapter2 extends PagerAdapter {
+    public class MyViewPagerAdapter extends PagerAdapter {
         private LayoutInflater inflater;
 
-        public MyViewPagerAdapter2() {
+        public MyViewPagerAdapter() {
         }
 
         @Override

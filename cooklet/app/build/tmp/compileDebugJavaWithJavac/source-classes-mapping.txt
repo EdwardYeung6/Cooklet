@@ -4,15 +4,15 @@ com/example/cooklet/databinding/ActivityMainInstructionBinding.java
  com.example.cooklet.databinding.ActivityMainInstructionBinding
 com/example/cooklet/Recipe.java
  com.example.cooklet.Recipe
-com/example/cooklet/IntroductionActivity.java
- com.example.cooklet.IntroductionActivity
+com/example/cooklet/databinding/ActivityMainIntroPrepareContainerBinding.java
+ com.example.cooklet.databinding.ActivityMainIntroPrepareContainerBinding
 com/example/cooklet/databinding/ActivityFinishBinding.java
  com.example.cooklet.databinding.ActivityFinishBinding
 com/example/cooklet/FinishActivity.java
  com.example.cooklet.FinishActivity
-com/example/cooklet/MainActivity_Type.java
- com.example.cooklet.MainActivity_Type
- com.example.cooklet.MainActivity_Type$1
+com/example/cooklet/MainActivity_Meun.java
+ com.example.cooklet.MainActivity_Meun
+ com.example.cooklet.MainActivity_Meun$1
 com/example/cooklet/databinding/ActivityPreparationBinding.java
  com.example.cooklet.databinding.ActivityPreparationBinding
 com/example/cooklet/databinding/ActivityMainMeunBinding.java
@@ -27,8 +27,9 @@ com/example/cooklet/Step4Activity.java
  com.example.cooklet.Step4Activity
 com/example/cooklet/Notification.java
  com.example.cooklet.Notification
-com/example/cooklet/MainActivity_Introduction.java
- com.example.cooklet.MainActivity_Introduction
+com/example/cooklet/MainActivity_Type.java
+ com.example.cooklet.MainActivity_Type
+ com.example.cooklet.MainActivity_Type$1
 com/example/cooklet/Step3Activity.java
  com.example.cooklet.Step3Activity
 com/example/cooklet/databinding/LayoutSingleListItemBinding.java
@@ -43,13 +44,8 @@ com/example/cooklet/Ingredients.java
  com.example.cooklet.Ingredients
 com/example/cooklet/databinding/ActivityStep1Binding.java
  com.example.cooklet.databinding.ActivityStep1Binding
-com/example/cooklet/MainActivity_Instruction.java
- com.example.cooklet.MainActivity_Instruction
- com.example.cooklet.MainActivity_Instruction$1
- com.example.cooklet.MainActivity_Instruction$2
- com.example.cooklet.MainActivity_Instruction$3
- com.example.cooklet.MainActivity_Instruction$4
- com.example.cooklet.MainActivity_Instruction$MyViewPagerAdapter2
+com/example/cooklet/Dataset.java
+ com.example.cooklet.Dataset
 com/example/cooklet/Type_icon_adapter.java
  com.example.cooklet.Type_icon_adapter
 com/example/cooklet/preparation_adapter.java
@@ -64,8 +60,8 @@ com/example/cooklet/ReipeData.java
  com.example.cooklet.ReipeData
 com/example/cooklet/databinding/ActivityStep4Binding.java
  com.example.cooklet.databinding.ActivityStep4Binding
-com/example/cooklet/Step2Activity.java
- com.example.cooklet.Step2Activity
+com/example/cooklet/IntroductionActivity.java
+ com.example.cooklet.IntroductionActivity
 com/example/cooklet/databinding/LayoutSingleTypeItemBinding.java
  com.example.cooklet.databinding.LayoutSingleTypeItemBinding
 com/example/cooklet/databinding/ActivityMainTypeBinding.java
@@ -76,18 +72,22 @@ com/example/cooklet/databinding/LayoutPrepareDataPresentBinding.java
  com.example.cooklet.databinding.LayoutPrepareDataPresentBinding
 com/example/cooklet/databinding/ActivityIntroductionBinding.java
  com.example.cooklet.databinding.ActivityIntroductionBinding
-com/example/cooklet/databinding/ActivityMainIntroPrepareContainerBinding.java
- com.example.cooklet.databinding.ActivityMainIntroPrepareContainerBinding
-com/example/cooklet/Dataset.java
- com.example.cooklet.Dataset
-com/example/cooklet/PreparationActivity.java
- com.example.cooklet.PreparationActivity
-com/example/cooklet/MainActivity_Prepare.java
- com.example.cooklet.MainActivity_Prepare
+com/example/cooklet/MainActivity_Introduction.java
+ com.example.cooklet.MainActivity_Introduction
 com/example/cooklet/MainActivity_Intro_prepare_container.java
  com.example.cooklet.MainActivity_Intro_prepare_container
  com.example.cooklet.MainActivity_Intro_prepare_container$1
  com.example.cooklet.MainActivity_Intro_prepare_container$MyViewPagerAdapter
-com/example/cooklet/MainActivity_Meun.java
- com.example.cooklet.MainActivity_Meun
- com.example.cooklet.MainActivity_Meun$1
+com/example/cooklet/MainActivity_Prepare.java
+ com.example.cooklet.MainActivity_Prepare
+com/example/cooklet/Step2Activity.java
+ com.example.cooklet.Step2Activity
+com/example/cooklet/MainActivity_Instruction.java
+ com.example.cooklet.MainActivity_Instruction
+ com.example.cooklet.MainActivity_Instruction$1
+ com.example.cooklet.MainActivity_Instruction$2
+ com.example.cooklet.MainActivity_Instruction$3
+ com.example.cooklet.MainActivity_Instruction$4
+ com.example.cooklet.MainActivity_Instruction$MyViewPagerAdapter
+com/example/cooklet/PreparationActivity.java
+ com.example.cooklet.PreparationActivity
