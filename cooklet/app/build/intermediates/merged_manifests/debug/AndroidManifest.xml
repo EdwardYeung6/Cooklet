@@ -17,7 +17,6 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/coolkle_icon_round_removebg"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.Cooklet" >
         <activity
             android:name="com.example.cooklet.MainActivity_Instruction"

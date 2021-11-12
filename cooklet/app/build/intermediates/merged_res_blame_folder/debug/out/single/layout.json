@@ -36,6 +36,10 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_step4.xml"
     },
     {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\converter.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\converter.xml"
+    },
+    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\adapter_view_layout.xml",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\adapter_view_layout.xml"
     },

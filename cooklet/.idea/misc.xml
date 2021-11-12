@@ -35,6 +35,7 @@
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/activity_step4.xml" value="0.17675438596491228" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/activity_type.xml" value="0.38315217391304346" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/adapter_view_layout.xml" value="0.17675438596491228" />
+        <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/converter.xml" value="0.5" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/fragment_dashboard.xml" value="0.38315217391304346" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/fragment_home.xml" value="0.38315217391304346" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/fragment_notifications.xml" value="0.38315217391304346" />
@@ -44,6 +45,7 @@
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/layout_single_type_item.xml" value="0.1" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/layout/type_imageview.xml" value="0.1" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18464912280701753" />
+        <entry key="..\:/Cooklet1/cooklet/app/src/main/res/menu/converter_meun.xml" value="0.2" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3399122807017544" />
         <entry key="..\:/Cooklet1/cooklet/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23541666666666666" />
       </map>

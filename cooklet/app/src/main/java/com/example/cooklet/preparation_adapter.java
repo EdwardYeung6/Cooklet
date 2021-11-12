@@ -7,11 +7,14 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 import android.view.LayoutInflater;
 
+import java.text.DecimalFormat;
+
 public class preparation_adapter extends BaseAdapter {
     private Context context;
     private final String [] name;
     private final double[] value;
     private final String[] measurement;
+    private static final DecimalFormat df = new DecimalFormat("0.00");
 
     public preparation_adapter(Context c, String[] name, double[] value, String[] measurement)
     {
@@ -53,7 +56,7 @@ public class preparation_adapter extends BaseAdapter {
         }
 
         viewHolder.name_txt.setText(name[position]);
-        viewHolder.value_txt.setText(value[position]+measurement[position]);
+        viewHolder.value_txt.setText(df.format(value[position])+measurement[position]);
         return convertView;
 
     }

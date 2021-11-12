@@ -48,7 +48,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="21dp"
                 android:layout_marginTop="22dp"
-                android:text="TextView" />
+                android:text="@string/food_name" />
 
             <TextView
                 android:id="@+id/describution_main"
@@ -58,7 +58,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="110dp"
-                android:text="TextView" />
+                android:text="@string/description" />
         </RelativeLayout>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

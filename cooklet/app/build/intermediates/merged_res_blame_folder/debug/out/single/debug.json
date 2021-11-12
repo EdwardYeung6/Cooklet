@@ -12,28 +12,28 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\bar.png"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_step3.png.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\step3.png"
-    },
-    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_prepare.xml.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_prepare.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_step3.png.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\step3.png"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_prepare_ready_button.xml.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\prepare_ready_button.xml"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_type_vegetable.jpg.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\type_vegetable.jpg"
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_adapter_view_layout.xml.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\adapter_view_layout.xml"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_adapter_view_layout.xml.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\adapter_view_layout.xml"
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_type_vegetable.jpg.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\type_vegetable.jpg"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_type.xml.flat",
