@@ -200,10 +200,6 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\circle_button.xml"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_instruction.xml.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_instruction.xml"
-    },
-    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },

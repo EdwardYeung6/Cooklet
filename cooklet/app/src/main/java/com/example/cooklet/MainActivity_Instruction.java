@@ -53,6 +53,7 @@ public class MainActivity_Instruction extends AppCompatActivity {
         vp.addOnPageChangeListener(viewPagerPageChangeListener);
 
 
+        ColoredBars(0);
         notificationManager = NotificationManagerCompat.from(this);
     }
     public void homeFromInstruc(View v) {
@@ -199,8 +200,7 @@ public class MainActivity_Instruction extends AppCompatActivity {
         }
 
         @Override
-        public void destroyItem(ViewGroup container, int position, Object object) {
-            View v = (View) object;
+        public void destroyItem(ViewGroup container, int position, Object object) {            View v = (View) object;
             container.removeView(v);
         }
 

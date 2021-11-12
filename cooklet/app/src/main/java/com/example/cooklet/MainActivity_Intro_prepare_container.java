@@ -40,7 +40,7 @@ public class MainActivity_Intro_prepare_container extends AppCompatActivity {
         myvpAdapter = new MainActivity_Intro_prepare_container.MyViewPagerAdapter();
         vp.setAdapter(myvpAdapter);
         vp.addOnPageChangeListener(viewPagerPageChangeListener);
-        //ColoredBars(0);
+        ColoredBars(0);
     }
 
 

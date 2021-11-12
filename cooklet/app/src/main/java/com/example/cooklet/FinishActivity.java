@@ -14,7 +14,7 @@ public class FinishActivity extends AppCompatActivity {
     }
 
     public void returnHome(View view) {
-        Intent intent = new Intent(this, MainActivity_Meun.class);
+        Intent intent = new Intent(this, MainActivity_Type.class);
         startActivity(intent);
     }
 }

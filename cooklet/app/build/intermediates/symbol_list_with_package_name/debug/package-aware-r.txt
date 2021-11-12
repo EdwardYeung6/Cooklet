@@ -2009,6 +2009,7 @@ id ingredientName1
 id ingredients
 id instruction
 id instruction_name
+id intro_background
 id introduction_view
 id invisible
 id inward
@@ -2313,7 +2314,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_finish
-layout activity_instruction
 layout activity_introduction
 layout activity_main_instruction
 layout activity_main_intro_prepare_container
