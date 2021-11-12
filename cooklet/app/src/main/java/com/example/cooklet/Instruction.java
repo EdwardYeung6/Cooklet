@@ -110,7 +110,7 @@ public class Instruction extends AppCompatActivity {
         public void onPageSelected(int position) {
             if (position == 0) {
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_2_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Step 1")
                         .setContentText(getString(R.string.step1_name))
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -122,7 +122,7 @@ public class Instruction extends AppCompatActivity {
             if (position == 1) {
 
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_2_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Step 2")
                         .setContentText(getString(R.string.step2_name))
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -133,7 +133,7 @@ public class Instruction extends AppCompatActivity {
             }
             if (position == 2) {
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_2_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Step 3")
                         .setContentText(getString(R.string.step3_name))
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -144,7 +144,7 @@ public class Instruction extends AppCompatActivity {
             }
             if (position == 3) {
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_2_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Step 4")
                         .setContentText(getString(R.string.step4_name))
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -186,7 +186,7 @@ public class Instruction extends AppCompatActivity {
         public Object instantiateItem(ViewGroup container, int position) {
             if (position == 0) {
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_2_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Step 1")
                         .setContentText(getString(R.string.step1_name))
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -245,7 +245,7 @@ public class Instruction extends AppCompatActivity {
 
     public void startTimer1() {
         android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_1_ID)
-                .setSmallIcon(R.drawable.ic_launcher_background)
+                .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                 .setContentTitle("Timer")
                 .setContentText("Time remaining: 10 minutes")
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -261,7 +261,7 @@ public class Instruction extends AppCompatActivity {
             @Override
             public void onFinish() {
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_1_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Timer")
                         .setContentText("Time is up")
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -279,7 +279,7 @@ public class Instruction extends AppCompatActivity {
 
     public void startTimer2() {
         android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_1_ID)
-                .setSmallIcon(R.drawable.ic_launcher_background)
+                .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                 .setContentTitle("Timer")
                 .setContentText("Time remaining: 3 minutes")
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -295,7 +295,7 @@ public class Instruction extends AppCompatActivity {
             @Override
             public void onFinish() {
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_1_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Timer")
                         .setContentText("Time is up")
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -314,7 +314,7 @@ public class Instruction extends AppCompatActivity {
 
     public void startTimer3() {
         android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_1_ID)
-                .setSmallIcon(R.drawable.ic_launcher_background)
+                .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                 .setContentTitle("Timer")
                 .setContentText("Time remaining: 1 min 30 seconds")
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -330,7 +330,7 @@ public class Instruction extends AppCompatActivity {
             @Override
             public void onFinish() {
                 android.app.Notification notification = new NotificationCompat.Builder(Instruction.this, CHANNEL_1_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setSmallIcon(R.drawable.coolkle_icon_round_removebg)
                         .setContentTitle("Timer")
                         .setContentText("Time is up")
                         .setPriority(NotificationCompat.PRIORITY_HIGH)

@@ -54,7 +54,7 @@ public class MainActivity_Meun extends AppCompatActivity {
 
                 //Toast.makeText(MainActivity_Meun.this, version[i]+" "+versionNumber[i], Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(MainActivity_Meun.this, MainActivity_Introduction.class);
+                Intent intent = new Intent(MainActivity_Meun.this, MainActivity2.class);
                 int[] temp= {type_value,i};
                 intent.putExtra("key", temp); // put image data in Intent
                 startActivity(intent); // start Intent

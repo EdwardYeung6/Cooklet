@@ -37,7 +37,8 @@ public class MainActivity_Introduction extends AppCompatActivity {
     }
 
     public void to_prepare(View view){
-        Intent intent = new Intent(MainActivity_Introduction.this, PreparationActivity.class);
+        Intent intent = new Intent(MainActivity_Introduction.this, MainActivity_Prepare.class);
+        //Intent intent = new Intent(MainActivity_Introduction.this, Instruction.class);
         intent.putExtra("key", value); // put image data in Intent
         startActivity(intent);
     }

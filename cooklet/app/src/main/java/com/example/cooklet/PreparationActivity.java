@@ -32,7 +32,7 @@ public class PreparationActivity extends AppCompatActivity {
     }
 
     public void openInstruction(View view) {
-        Intent intent = new Intent(this, Instruction.class);
+        Intent intent = new Intent(PreparationActivity.this, Instruction.class);
         startActivity(intent);
     }
 }
