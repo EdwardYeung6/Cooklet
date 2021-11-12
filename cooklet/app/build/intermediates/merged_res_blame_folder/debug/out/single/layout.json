@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_instruction.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_instruction.xml"
+    },
+    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_single_list_item.xml",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\layout_single_list_item.xml"
     },
@@ -10,10 +14,6 @@
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_finish.xml",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_finish.xml"
-    },
-    {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_intro_prepare_container.xml",

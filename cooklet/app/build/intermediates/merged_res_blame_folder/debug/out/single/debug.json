@@ -12,12 +12,12 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\bar.png"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_prepare.xml.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_prepare.xml"
-    },
-    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_step3.png.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\step3.png"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_prepare.xml.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_prepare.xml"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_prepare_ready_button.xml.flat",
@@ -92,12 +92,12 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_type_pork.jpg.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\type_pork.jpg"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_yellow_button.xml.flat",
@@ -112,20 +112,20 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\ic_back_arrow.png"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_single_type_item.xml.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\layout_single_type_item.xml"
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_introduction.xml.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_introduction.xml"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_back_arrow.png.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-mdpi\\ic_back_arrow.png"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_single_type_item.xml.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\layout_single_type_item.xml"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_step3.xml.flat",
@@ -140,28 +140,24 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\type_beef.jpg"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_type_chicken.jpg.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\type_chicken.jpg"
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_fried_beef.png.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\fried_beef.png"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_converter_removebg.png.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\converter_removebg.png"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_fried_beef.png.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\fried_beef.png"
-    },
-    {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_textview.xml.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\round_textview.xml"
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_type_chicken.jpg.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\type_chicken.jpg"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_step4.png.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\step4.png"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_textview.xml.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\round_textview.xml"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_white_button.xml.flat",
@@ -176,12 +172,12 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_step2.xml"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_back_arrow.png.flat",
@@ -218,10 +214,6 @@
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_type_duck.jpg.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\type_duck.jpg"
-    },
-    {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main2.xml.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_step1.xml.flat",
@@ -268,15 +260,19 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\start_cook_removebg.png"
     },
     {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_instruction.xml.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_instruction.xml"
+    },
+    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_single_list_item.xml.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\layout_single_list_item.xml"
     },
     {
-        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\drawable_food_background.png.flat",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\drawable\\food_background.png"
+    },
+    {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     }
 ]

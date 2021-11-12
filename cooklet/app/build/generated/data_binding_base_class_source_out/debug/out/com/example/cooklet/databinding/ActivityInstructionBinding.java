@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import androidx.viewpager2.widget.ViewPager2;
+import androidx.viewpager.widget.ViewPager;
 import com.example.cooklet.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -31,10 +31,10 @@ public final class ActivityInstructionBinding implements ViewBinding {
   public final LinearLayout layoutBars;
 
   @NonNull
-  public final ViewPager2 viewPager;
+  public final ViewPager viewPager;
 
   private ActivityInstructionBinding(@NonNull RelativeLayout rootView, @NonNull Button back,
-      @NonNull Button home, @NonNull LinearLayout layoutBars, @NonNull ViewPager2 viewPager) {
+      @NonNull Button home, @NonNull LinearLayout layoutBars, @NonNull ViewPager viewPager) {
     this.rootView = rootView;
     this.back = back;
     this.home = home;
@@ -88,7 +88,7 @@ public final class ActivityInstructionBinding implements ViewBinding {
       }
 
       id = R.id.view_pager;
-      ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
+      ViewPager viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
         break missingId;
       }

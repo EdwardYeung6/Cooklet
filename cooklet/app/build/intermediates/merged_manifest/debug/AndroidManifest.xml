@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Cooklet" >
         <activity
+            android:name="com.example.cooklet.MainActivity_Instruction"
+            android:exported="false" />
+        <activity
             android:name="com.example.cooklet.MainActivity_Intro_prepare_container"
             android:exported="false" />
         <activity
@@ -41,9 +44,6 @@
             android:name="com.example.cooklet.MainActivity_Meun"
             android:exported="false" />
         <activity
-            android:name="com.example.cooklet.MainActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.cooklet.FinishActivity"
             android:exported="true" />
         <activity
@@ -51,9 +51,6 @@
             android:exported="true" />
         <activity
             android:name="com.example.cooklet.PreparationActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.cooklet.MainActivity2"
             android:exported="true" />
         <activity
             android:name="com.example.cooklet.Instruction"

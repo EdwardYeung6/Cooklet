@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cooklet">
         <activity
+            android:name=".MainActivity_Instruction"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_Intro_prepare_container"
             android:exported="false" />
         <activity
@@ -31,9 +34,6 @@
             android:name=".MainActivity_Meun"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".FinishActivity"
             android:exported="true" />
         <activity
@@ -41,9 +41,6 @@
             android:exported="true" />
         <activity
             android:name=".PreparationActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity2"
             android:exported="true" />
         <activity
             android:name=".Instruction"

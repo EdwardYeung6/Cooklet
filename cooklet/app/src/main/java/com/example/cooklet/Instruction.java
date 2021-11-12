@@ -57,9 +57,9 @@ public class Instruction extends AppCompatActivity {
         myvpAdapter = new MyViewPagerAdapter();
         vp.setAdapter(myvpAdapter);
         vp.addOnPageChangeListener(viewPagerPageChangeListener);
-        ColoredBars(0);
+        //ColoredBars(0);
 
-        notificationManager = NotificationManagerCompat.from(this);
+       //notificationManager = NotificationManagerCompat.from(this);
 
 
     }
@@ -100,7 +100,7 @@ public class Instruction extends AppCompatActivity {
     }
 
     private void launchIntro() {
-        startActivity(new Intent(Instruction.this, MainActivity.class));
+        startActivity(new Intent(Instruction.this, MainActivity_Meun.class));
         finish();
     }
 

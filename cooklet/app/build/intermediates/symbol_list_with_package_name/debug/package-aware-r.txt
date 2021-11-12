@@ -1788,14 +1788,6 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id GridView_type
-id ImageView1
-id ImageView2
-id ImageView3
-id ImageView4
-id ImageView5
-id ImageView6
-id ImageView7
-id ImageView8
 id ImageView_button1
 id ImageView_button2
 id ImageView_button3
@@ -1808,7 +1800,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id Type_scroll
 id aNametxt
 id aVersiontxt
 id accelerate
@@ -2036,7 +2027,6 @@ id line
 id line1
 id line3
 id linear
-id linearLayout1
 id listMode
 id list_item
 id masked
@@ -2325,8 +2315,7 @@ layout abc_tooltip
 layout activity_finish
 layout activity_instruction
 layout activity_introduction
-layout activity_main
-layout activity_main2
+layout activity_main_instruction
 layout activity_main_intro_prepare_container
 layout activity_main_introduction
 layout activity_main_meun

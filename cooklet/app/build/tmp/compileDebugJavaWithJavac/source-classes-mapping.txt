@@ -1,5 +1,7 @@
 com/example/cooklet/databinding/AdapterViewLayoutBinding.java
  com.example.cooklet.databinding.AdapterViewLayoutBinding
+com/example/cooklet/databinding/ActivityMainInstructionBinding.java
+ com.example.cooklet.databinding.ActivityMainInstructionBinding
 com/example/cooklet/Recipe.java
  com.example.cooklet.Recipe
 com/example/cooklet/MainActivity_Intro_prepare_container.java
@@ -17,8 +19,6 @@ com/example/cooklet/databinding/ActivityPreparationBinding.java
  com.example.cooklet.databinding.ActivityPreparationBinding
 com/example/cooklet/databinding/ActivityMainMeunBinding.java
  com.example.cooklet.databinding.ActivityMainMeunBinding
-com/example/cooklet/MainActivity.java
- com.example.cooklet.MainActivity
 com/example/cooklet/BuildConfig.java
  com.example.cooklet.BuildConfig
 com/example/cooklet/ListAdapter.java
@@ -58,14 +58,19 @@ com/example/cooklet/databinding/ActivityStep3Binding.java
  com.example.cooklet.databinding.ActivityStep3Binding
 com/example/cooklet/Step1Activity.java
  com.example.cooklet.Step1Activity
-com/example/cooklet/databinding/ActivityMainBinding.java
- com.example.cooklet.databinding.ActivityMainBinding
 com/example/cooklet/ReipeData.java
  com.example.cooklet.ReipeData
 com/example/cooklet/databinding/ActivityStep4Binding.java
  com.example.cooklet.databinding.ActivityStep4Binding
 com/example/cooklet/Step2Activity.java
  com.example.cooklet.Step2Activity
+com/example/cooklet/MainActivity_Instruction.java
+ com.example.cooklet.MainActivity_Instruction
+ com.example.cooklet.MainActivity_Instruction$1
+ com.example.cooklet.MainActivity_Instruction$2
+ com.example.cooklet.MainActivity_Instruction$3
+ com.example.cooklet.MainActivity_Instruction$4
+ com.example.cooklet.MainActivity_Instruction$MyViewPagerAdapter2
 com/example/cooklet/databinding/ActivityMainTypeBinding.java
  com.example.cooklet.databinding.ActivityMainTypeBinding
 com/example/cooklet/databinding/ActivityInstructionBinding.java
@@ -91,12 +96,6 @@ com/example/cooklet/Ingredients.java
  com.example.cooklet.Ingredients
 com/example/cooklet/databinding/LayoutSingleTypeItemBinding.java
  com.example.cooklet.databinding.LayoutSingleTypeItemBinding
-com/example/cooklet/databinding/ActivityMain2Binding.java
- com.example.cooklet.databinding.ActivityMain2Binding
-com/example/cooklet/MainActivity2.java
- com.example.cooklet.MainActivity2
- com.example.cooklet.MainActivity2$1
- com.example.cooklet.MainActivity2$MyViewPagerAdapter
 com/example/cooklet/databinding/ActivityMainPrepareBinding.java
  com.example.cooklet.databinding.ActivityMainPrepareBinding
 com/example/cooklet/PreparationActivity.java
