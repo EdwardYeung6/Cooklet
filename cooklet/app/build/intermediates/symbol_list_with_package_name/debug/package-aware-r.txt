@@ -2327,6 +2327,7 @@ layout activity_instruction
 layout activity_introduction
 layout activity_main
 layout activity_main2
+layout activity_main_intro_prepare_container
 layout activity_main_introduction
 layout activity_main_meun
 layout activity_main_prepare

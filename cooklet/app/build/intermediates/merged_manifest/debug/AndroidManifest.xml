@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Cooklet" >
         <activity
+            android:name="com.example.cooklet.MainActivity_Intro_prepare_container"
+            android:exported="false" />
+        <activity
             android:name="com.example.cooklet.MainActivity_Prepare"
             android:exported="false" />
         <activity

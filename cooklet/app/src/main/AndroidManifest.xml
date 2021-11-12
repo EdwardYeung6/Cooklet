@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cooklet">
         <activity
+            android:name=".MainActivity_Intro_prepare_container"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_Prepare"
             android:exported="false" />
         <activity
@@ -24,47 +27,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity_Meun"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
         <activity
             android:name=".FinishActivity"
             android:exported="true" />
-
         <activity
             android:name=".IntroductionActivity"
             android:exported="true" />
-
         <activity
             android:name=".PreparationActivity"
             android:exported="true" />
-
         <activity
             android:name=".MainActivity2"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".Instruction"
             android:exported="true" />
-
         <activity
             android:name=".Step1Activity"
             android:exported="true" />
-
         <activity
             android:name=".Step2Activity"
             android:exported="true" />
-
         <activity
             android:name=".Step3Activity"
             android:exported="true" />
-
         <activity
             android:name=".Step4Activity"
             android:exported="true" />

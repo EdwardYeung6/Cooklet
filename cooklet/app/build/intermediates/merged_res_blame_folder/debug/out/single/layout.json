@@ -16,6 +16,10 @@
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
+        "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_intro_prepare_container.xml",
+        "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_main_intro_prepare_container.xml"
+    },
+    {
         "merged": "E:\\Cooklet1\\cooklet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_instruction.xml",
         "source": "E:\\Cooklet1\\cooklet\\app\\src\\main\\res\\layout\\activity_instruction.xml"
     },
