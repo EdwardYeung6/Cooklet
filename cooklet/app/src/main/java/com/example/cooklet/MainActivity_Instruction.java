@@ -38,7 +38,22 @@ public class MainActivity_Instruction extends AppCompatActivity {
         setContentView(R.layout.activity_main_instruction);
 
 
+        screens = new int[]{
+                R.layout.activity_step1,
+                R.layout.activity_step2,
+                R.layout.activity_step3,
+                R.layout.activity_step4
+        };
+        vp = (ViewPager) findViewById(R.id.view_pager);
+        Layout_bars = (LinearLayout) findViewById(R.id.layoutBars);
+        Back = (Button) findViewById(R.id.back);
+        Home = (Button) findViewById(R.id.home);
+        myvpAdapter = new MainActivity_Instruction.MyViewPagerAdapter2();
+        vp.setAdapter(myvpAdapter);
+        vp.addOnPageChangeListener(viewPagerPageChangeListener);
 
+
+        notificationManager = NotificationManagerCompat.from(this);
     }
     public void homeFromInstruc(View v) {
         int i = getItem(+1);

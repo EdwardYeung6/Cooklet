@@ -96,7 +96,7 @@ public class MainActivity_Intro_prepare_container extends AppCompatActivity {
     };
 
     public void homeFromIntro(View view) {
-        startActivity(new Intent(MainActivity_Intro_prepare_container.this, MainActivity_Meun.class));
+        startActivity(new Intent(MainActivity_Intro_prepare_container.this, MainActivity_Type.class));
     }
 
 
@@ -139,7 +139,7 @@ public class MainActivity_Intro_prepare_container extends AppCompatActivity {
     }
 
     public void openInstruction(View view) {
-        Intent intent = new Intent(this, Instruction.class);
+        Intent intent = new Intent(this, MainActivity_Instruction.class);
         startActivity(intent);
     }
 }

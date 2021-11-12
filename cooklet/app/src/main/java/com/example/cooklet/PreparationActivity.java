@@ -20,11 +20,15 @@ public class PreparationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preparation);
 
-
+        int[] x = {0,0};
+        value= x;
        Bundle extras = getIntent().getExtras();
         if (extras != null) {
             value = extras.getIntArray("key");
 
+        }else{
+
+            value= x;
         }
 
         lView = (ListView) findViewById(R.id.ingredientListView);
